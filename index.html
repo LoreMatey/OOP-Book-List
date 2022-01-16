@@ -4,9 +4,42 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>OOP Book List</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@300&family=Roboto:wght@100;300&display=swap" rel="stylesheet"> 
 </head>
 <body>
-  
+  <div class="form-wrapper">
+    <img width="50%" src="https://image.freepik.com/vector-gratis/concepto-dia-mundial-libro-diseno-plano_52683-35711.jpg">
+    
+    <form class="form" id="book-form">
+      <h1 class="form-title">Add Book</h1>
+      <label for="title" class="form-label">Title</label>
+      <input type="text" class="form-input" name="title" id="title" />
+
+      <label for="author" class="form-label">Author</label>
+      <input type="text" class="form-input" name="author" id="author" />
+
+      <label for="isbn" class="form-label">ISBN</label>
+      <input type="text" class="form-input" name="isbn" id="isbn" />
+
+      <input class="form-submit" type="submit" value="Submit">
+    </form>
+  </div>
+  <table class="book-list--wrapper">
+    <thead class="book-list--header">
+      <tr class="book-list--tr">
+        <th>Title</th>
+        <th>Author</th>
+        <th>ISBN</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody id="book-list"></tbody>
+  </table>
+
+  <script src="app.js"></script>
 </body>
 </html>

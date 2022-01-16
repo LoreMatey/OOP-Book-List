@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(77, 53, 97);
+  font-family: 'Roboto', sans-serif;
+}
+
+.form-wrapper {
+  display: flex;
+  width: 80%;
+  min-width: 600px;
+  background-color: white;
+  margin: 50px auto;
+  /* flex-direction: column; */
+}
+
+.book-list--wrapper {
+  width: 80%;
+  min-width: 600px;
+  background-color: white;
+  margin: 50px auto;
+  /* flex-direction: column; */
+}
+
+.form {
+  /* border: 1px solid greenyellow; */
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 5%;
+}
+
+.form-title {
+  font-family: 'Lobster', cursive;
+  font-size: 36px;
+  color:rgb(236, 173, 90);
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.form-label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-input {
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid lightgrey;
+  color: grey;
+}
+
+.form-input:hover,
+.form-input:focus {
+  border-color: rgb(51, 161, 161);
+  outline: none;
+}
+
+.form-submit {
+  padding: 10px;
+  margin-top: 25px;
+  font-size: 15px;
+  background-color: rgb(236, 173, 90);
+  color: white;
+  border: none;
+}
+
+.form-submit:hover,
+.form-submit:focus {
+  background-color: rgb(206, 140, 53);
+}
+
+/* .book-list--header {
+  border: 1px solid crimson;
+  margin: 20px;
+  color: green;
+}
+
+.book-list--tr {
+  margin: 15px;
+} */
