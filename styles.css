@@ -18,13 +18,6 @@ body {
   /* flex-direction: column; */
 }
 
-.book-list--wrapper {
-  width: 80%;
-  min-width: 600px;
-  background-color: white;
-  margin: 50px auto;
-  /* flex-direction: column; */
-}
 
 .form {
   /* border: 1px solid greenyellow; */
@@ -75,12 +68,27 @@ body {
   background-color: rgb(206, 140, 53);
 }
 
-/* .book-list--header {
-  border: 1px solid crimson;
-  margin: 20px;
-  color: green;
+.book-list--wrapper {
+  width: 80%;
+  min-width: 600px;
+  background-color: white;
+  margin: 50px auto;
+  border-collapse: collapse;
+  text-align: left;
 }
 
-.book-list--tr {
-  margin: 15px;
-} */
+.book-list--tr th{
+  border-bottom: 1px solid lightgrey;
+  padding: 15px 15px 15px 20px;
+  /* color:rgb(51, 161, 161); */
+}
+
+.book-list td{
+  padding: 10px 20px 15px 20px;
+  color: grey;
+  text-align: left;
+}
+
+.book-list td:nth-child(4) {
+  text-align: right;
+}
