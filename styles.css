@@ -15,6 +15,7 @@ body {
   min-width: 600px;
   background-color: white;
   margin: 50px auto;
+  align-items: center;
   /* flex-direction: column; */
 }
 
@@ -67,6 +68,7 @@ body {
 .form-submit:hover,
 .form-submit:focus {
   background-color: rgb(206, 140, 53);
+  outline: none;
 }
 
 .book-list--wrapper {
@@ -99,7 +101,7 @@ body {
   font-weight: bolder;
   text-align: center;
   position: absolute;
-  margin-top: -25px;
+  top: 25px;
   width: 80%;
   min-width: 600px;
   padding: 15px;
@@ -115,4 +117,12 @@ body {
   background-color: rgb(195, 251, 228);
   color: rgb(47, 136, 117);
   border-bottom: 1px solid rgb(47, 136, 117);
+}
+
+.fa-times-circle {
+  color:rgb(236, 173, 90);
+}
+
+.fa-times-circle:hover {
+  color:rgb(206, 140, 53);
 }
